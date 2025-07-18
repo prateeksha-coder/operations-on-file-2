@@ -3,6 +3,7 @@ new_file = open('New_File.txt', 'x')
 new_file.close()
 
 #check if a file exists 
+#os module allows programs to perform OS based tasks such as rename, removing,creating and deleting files or directories.
 import os
 print("Checking if my_file exists or not....")
 if os.path.exists("my_file.txt"):
