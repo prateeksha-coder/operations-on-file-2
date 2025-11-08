@@ -19,6 +19,6 @@ my_file.close()
 #delete file named codingal
 os.remove('Codingal.txt')
 
-#delete the folder
+#delete the folder (remove directory)
 os.rmdir('Folder')
 
